@@ -1,0 +1,34 @@
+.storage .quick-link {
+    height: 65px;
+}
+
+.storage .bar:hover .quick-link-2 {
+    transform: translate(53px, -30px);
+}
+.storage .bar:hover .quick-link-3 {
+    transform: translate(53px, 30px);
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 22px;
+}
+a:hover {
+    color: #333;
+}
+
+.edit-food-icon {
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.edit-food-icon:hover {
+    color: yellow;
+}

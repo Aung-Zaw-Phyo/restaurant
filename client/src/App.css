@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+}
+.btn:hover {
+  color: yellow;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.form-control, .form-select{
+  border-color: #333;
+}
+.form-control:focus, .form-select:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid red;
+}
+.card {
+  border-radius: 10px;
+}
+
+
+/* ----------------- Login ------------------- */
+
+.login .container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login img {
+  width: 200px;
+}
+
+.swal2-styled.swal2-confirm{
+  background-color: #333 !important;
+  color: #fff !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+

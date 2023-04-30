@@ -1,0 +1,26 @@
+.chef .pending {
+    padding: 10px;
+    text-align: center;
+    background-color: #3333331f;
+    border-radius: 0.25rem;
+    font-size: 18px;
+}
+
+.chef .btn {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.selected-order-btn {
+    background-color: #3333331d;
+    color: #333;
+}
+
+.chef .selected-table {
+    animation: none;
+    margin-right: 10px;
+}
+
+.noti {
+    color: red;
+}

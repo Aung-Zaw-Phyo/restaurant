@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gilda+Display&family=Petit+Formal+Script&display=swap');
+
+font{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Gilda Display', serif;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.badge--font-size {
+    font-size: 16px !important;
+}
+
+.item  {
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.item .menu-img {
+    padding: 20px 10px;
+    text-align: center;
+    position: relative;
+}
+
+.menu-img .price {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-family: 'Gilda Display', serif;
+}
+
+.menu-img img {
+    width: 160px;
+    height: 160px;
+}
+
+.item .content {
+    padding: 10px;
+    background-color: yellowgreen;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.item .name {
+    font-size: 20px;
+}
+
+.item button {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100% !important;
+    background-color: #333;
+    color: yellow;
+}

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import './css/storage.css';
-import NotFound from './NotFound';
-import Header from './pages/storage/components/Header';
-import Food from './pages/storage/Food';
-import Table from './pages/storage/Table';
+import '../../css/storage.css';
+import NotFound from '../../NotFound';
+import Header from './components/Header';
+import Food from './Food';
+import Table from './Table';
 
 
 const Storage = () => {

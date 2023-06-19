@@ -1,9 +1,9 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import './css/dashboard.css'
-import Employee from './pages/dashboard/Employee'
-import Header from './pages/dashboard/components/Header'
-import Sidebar from './pages/dashboard/components/Sidebar'
+import '../../css/dashboard.css'
+import Employee from './Employee'
+import Header from './components/Header'
+import Sidebar from './components/Sidebar'
 
 const Dashboard = () => {
   return (

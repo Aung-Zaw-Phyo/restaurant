@@ -1,0 +1,81 @@
+.quick {
+    position: fixed;
+    top: 150px;
+    left: 40px;
+    z-index: 99;
+  }
+  
+  .quick .bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ;
+    position: relative;
+    width: min-content;
+    height: min-content;
+    background-color: blue;
+  }
+  
+  .quick .bar i {
+    font-size: 14px;
+    color: #fff;
+  }
+  
+.quick-link {
+    position: absolute;  
+    width: 90px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    /* background-color: aqua; */
+    transform: translate(0px, 0px);
+}
+  
+.quick-link > .search, .quick-link > .table, .quick-link > .checkout {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+} 
+
+.quick-link i {
+  vertical-align: middle;
+}
+  
+.quick-link > div:hover i{
+  color: yellow;
+}
+
+.bar:hover .quick-link-1 {
+  transform: translate(60px, 0px);
+}
+.bar:hover .quick-link-2 {
+  transform: translate(40px, -46px);
+}
+.bar:hover .quick-link-3 {
+  transform: translate(40px, 46px);
+}
+
+.bar .bar-menu{
+  position: absolute;
+  z-index: 9999 !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.bar .bar-menu:hover i {
+  color: yellow;
+}

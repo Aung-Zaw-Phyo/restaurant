@@ -5,7 +5,7 @@ import axios from 'axios'
 import { config } from '../../../config'
 import io from 'socket.io-client'
 
-import noti from '../../noti.mp3'
+import noti from '../../../assets/noti.mp3'
 let notisound = new Audio(noti)
 let socket;
 

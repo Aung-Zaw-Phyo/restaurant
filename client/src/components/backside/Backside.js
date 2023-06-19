@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import './css/backside.css'
-import NotFound from './NotFound'
-import Header from './pages/backside/components/Header'
-import Home from './pages/backside/Home'
+import '../../css/backside.css'
+import NotFound from '../../NotFound'
+import Header from './components/Header'
+import Home from './Home'
 
 const Backside = () => {
     const [takedOrders, setTakedOrders] = useState([]) // taken orders

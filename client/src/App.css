@@ -2,8 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 16px;
+}
+
+body{
+  background-color: #171923;
 }
 
 .btn {
@@ -28,6 +32,19 @@
 }
 .card {
   border-radius: 10px;
+}
+
+th, td {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+.logo {
+  width: 90px;
+}
+
+.menu-img {
+  width: 80px;
 }
 
 

@@ -4,6 +4,7 @@ import {Navigate} from 'react-router-dom'
 import * as api_login from './api/login'
 import * as helper from './api/helper'
 import { config } from './config';
+import logo from './assets/logo.png'
 
 const Login = () => {
     const [phone, setPhone] = useState('');
@@ -42,8 +43,8 @@ const Login = () => {
             }
             <div className='container'>
                 <div className='col-lg-6'>
-                    <div className='text-center'>
-                        <img className='' src="./logo.svg" alt="" />
+                    <div className='text-center mb-3'>
+                        <img className='' src={logo} alt="" />
                     </div>
                     <div className='card border-0 shadow-lg p-3 py-4'>
                         <div className='mb-3'>

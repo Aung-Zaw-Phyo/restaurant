@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import './css/frontside.css'
-import Header from './pages/frontside/components/Header'
-import NotFound from './NotFound'
-import Home from './pages/frontside/Home'
-import { TableInfo } from './pages/frontside/components/TableInfo'
+import '../../css/frontside.css'
+import Header from './Header/Header'
+import NotFound from '../../NotFound'
+import Home from './Home'
+import { TableInfo } from './store/TableInfo'
 
 const Frontside = () => {
     const [showTableInfo, setShowTableInfo] = useState(null)

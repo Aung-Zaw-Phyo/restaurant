@@ -4,7 +4,7 @@ import { config } from '../../config'
 import * as helper from './../../api/helper'
 import io from 'socket.io-client'
 
-import noti from '../noti.mp3'
+import noti from '../../assets/noti.mp3'
 let notisound = new Audio(noti)
 let socket;
 
@@ -22,14 +22,17 @@ const Home = (props) => {
         socket.on('send_created_order', data => {
             setOrders([...orders, data])
             notisound.play()
+            console.log('send_created_order')
         })
         socket.on('send_update_order', (data) => { // get all active orders
             setOrders(data)
             notisound.play()
+            console.log('send_update_order')
         })
         socket.on('send_done', (data) => { // get all active orders
             setOrders(data)
             notisound.play()
+            console.log('send_done')
         })
     }, [ENDPT, orders])
 
